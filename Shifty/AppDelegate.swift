@@ -234,8 +234,12 @@ class AppDelegate: NSObject, NSApplicationDelegate {
             statusItem.menu = statusMenu
             statusItem.button?.performClick(self)
             statusItem.menu = nil
-        } else if event.type == .leftMouseUp {
-            statusItemClicked?()
+        } else if event.type == .leftMouseDown {
+            if event.modifierFlags.contains(.shift) {
+                SLSSetAppearanceThemeLegacy(!SLSGetAppearanceThemeLegacy())
+            } else {
+                statusItemClicked?()
+            }
         }
     }
 

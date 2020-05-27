@@ -1,53 +1,54 @@
+
 /* Class = "NSButtonCell"; title = "True Tone control"; ObjectID = "4SC-bL-79S"; */
-"4SC-bL-79S.title" = "Contrôle True Tone";
+"4SC-bL-79S.title" = "True Tone control";
 
 /* Class = "NSButtonCell"; title = "Set menu bar icon according to Night Shift"; ObjectID = "4io-9H-HXp"; */
-"4io-9H-HXp.title" = "Changer l'icône de la barre des menus selon Night Shift";
+"4io-9H-HXp.title" = "Set menu bar icon according to Night Shift";
 
 /* Class = "NSButtonCell"; title = "Scheduled Dark Mode"; ObjectID = "5s5-Y5-5b9"; */
-"5s5-Y5-5b9.title" = "Programmer le mode foncé";
+"5s5-Y5-5b9.title" = "Scheduled Dark Mode";
 
 /* Class = "NSMenuItem"; title = "Custom"; ObjectID = "Cum-ew-Bk2"; */
-"Cum-ew-Bk2.title" = "Personnalisé";
+"Cum-ew-Bk2.title" = "Custom";
 
 /* Class = "NSButtonCell"; title = "Quick Toggle"; ObjectID = "Foo-g6-6iX"; */
-"Foo-g6-6iX.title" = "Changement rapide";
+"Foo-g6-6iX.title" = "Quick Toggle";
 
 /* Class = "NSButtonCell"; title = "Website Shifting"; ObjectID = "HRq-mZ-FxG"; */
-"HRq-mZ-FxG.title" = "Permutation des sites web";
+"HRq-mZ-FxG.title" = "Website Shifting";
 
 /* Class = "NSTextFieldCell"; title = "If enabled, click the Menu Bar icon to toggle Night Shift or shift-click to toggle Dark Mode. Right click to open the menu."; ObjectID = "MXt-WM-cMR"; */
-"MXt-WM-cMR.title" = "Si activé, un clic sur l’icône dans la barre des menus changera l'état de Night Shift, le clic de changement change le Dark Mode. Un clic droit ouvre le menu.";
+"MXt-WM-cMR.title" = "If enabled, click the Menu Bar icon to toggle Night Shift or shift-click to toggle Dark Mode. Right click to open the menu.";
 
 /* Class = "NSTextFieldCell"; title = "From:"; ObjectID = "PbT-Ky-Re6"; */
-"PbT-Ky-Re6.title" = "De :";
+"PbT-Ky-Re6.title" = "From:";
 
 /* Class = "NSTextFieldCell"; title = "If enabled, Night Shift rules for apps and websites will also affect True Tone."; ObjectID = "SKw-93-vs8"; */
-"SKw-93-vs8.title" = "Si activé, les règles Night Shift pour les applications et les sites web affecteront également True Tone.";
+"SKw-93-vs8.title" = "If enabled, Night Shift rules for apps and websites will also affect True Tone.";
 
 /* Class = "NSMenuItem"; title = "Sunset to Sunrise"; ObjectID = "TwI-wC-vyX"; */
-"TwI-wC-vyX.title" = "Du coucher au lever du soleil";
+"TwI-wC-vyX.title" = "Sunset to Sunrise";
 
 /* Class = "NSTextFieldCell"; title = "Schedule:"; ObjectID = "UGI-RO-ff6"; */
-"UGI-RO-ff6.title" = "Programmation :";
+"UGI-RO-ff6.title" = "Schedule:";
 
 /* Class = "NSTextFieldCell"; title = "If enabled, macOS Dark Mode will be automatically set based on the Night Shift schedule."; ObjectID = "ZdB-dN-hiO"; */
-"ZdB-dN-hiO.title" = "Si activé, le mode foncé de macOS sera activé en fonction de l’état de Night Shift.";
+"ZdB-dN-hiO.title" = "If enabled, macOS Dark Mode will be automatically set based on the Night Shift schedule.";
 
 /* Class = "NSTextFieldCell"; title = "to:"; ObjectID = "aNq-H7-I2m"; */
-"aNq-H7-I2m.title" = "à :";
+"aNq-H7-I2m.title" = "to:";
 
 /* Class = "NSButtonCell"; title = "Share anonymous crash data and analytics"; ObjectID = "ar0-8I-WmN"; */
-"ar0-8I-WmN.title" = "Partager les rapports d'erreur et les statistiques anonymement";
+"ar0-8I-WmN.title" = "Share anonymous crash data and analytics";
 
 /* Class = "NSButtonCell"; title = "Launch Shifty at login"; ObjectID = "bxC-lM-Pei"; */
-"bxC-lM-Pei.title" = "Lancer Shifty au démarrage";
+"bxC-lM-Pei.title" = "Launch Shifty at login";
 
 /* Class = "NSTextFieldCell"; title = "If enabled, you can set Night Shift to automatically disable when you visit certain websites."; ObjectID = "dvg-gw-YMI"; */
-"dvg-gw-YMI.title" = "Si activé, vous pouvez définir Night Shift pour désactiver automatiquement lorsque vous visitez certains sites Web.";
+"dvg-gw-YMI.title" = "If enabled, you can set Night Shift to automatically disable when you visit certain websites.";
 
 /* Class = "NSButtonCell"; title = "i"; ObjectID = "jjX-rt-8G1"; */
 "jjX-rt-8G1.title" = "i";
 
 /* Class = "NSMenuItem"; title = "Off"; ObjectID = "lkN-xJ-pf3"; */
-"lkN-xJ-pf3.title" = "Désactivé";
+"lkN-xJ-pf3.title" = "Off";

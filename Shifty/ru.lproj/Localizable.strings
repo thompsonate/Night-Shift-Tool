@@ -15,6 +15,7 @@
 "menu.disabled_for" = "Выключено для %@";
 "menu.enable_for" = "Включить для %@";
 "menu.enabled_for" = "Включено для %@";
+"menu.toggle_dark_mode" = "Переключить Dark Mode";
 
 "menu.disable_running_app" = "Выключить, когда %@ работает";
 "menu.disabled_running_app" = "Выключено, когда %@ работает";

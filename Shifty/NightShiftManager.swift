@@ -263,14 +263,15 @@ enum NightShiftManager {
                 prevSchedule = schedule
             }
             
-            let appDelegate = NSApplication.shared.delegate as! AppDelegate
-            appDelegate.updateMenuBarIcon()
-            
-            let prefWindow = (NSApplication.shared.delegate as? AppDelegate)?.preferenceWindowController
-            let prefGeneral = prefWindow?.viewControllers.compactMap { childViewController in
-                return childViewController as? PrefGeneralViewController
-                }.first
             DispatchQueue.main.async {
+                let appDelegate = NSApplication.shared.delegate as! AppDelegate
+                appDelegate.updateMenuBarIcon()
+                
+                let prefWindow = (NSApplication.shared.delegate as? AppDelegate)?.preferenceWindowController
+                let prefGeneral = prefWindow?.viewControllers.compactMap { childViewController in
+                    return childViewController as? PrefGeneralViewController
+                    }.first
+                
                 prefGeneral?.updateSchedule?()
             }
             

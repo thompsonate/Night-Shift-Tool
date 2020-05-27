@@ -15,6 +15,7 @@
 "menu.disabled_for" = "Deaktiviert für %@";
 "menu.enable_for" = "Aktivieren für %@";
 "menu.enabled_for" = "Aktiviert für %@";
+"menu.toggle_dark_mode" = "Dark Mode umschalten";
 
 "menu.disable_running_app" = "Deaktivieren, wenn %@ läuft";
 "menu.disabled_running_app" = "Deaktivieren, wenn %@ läuft";

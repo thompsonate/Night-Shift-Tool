@@ -16,8 +16,8 @@
 /* Class = "NSButtonCell"; title = "Website Shifting"; ObjectID = "HRq-mZ-FxG"; */
 "HRq-mZ-FxG.title" = "Webseiten-Shift";
 
-/* Class = "NSTextFieldCell"; title = "If enabled, click the Menu Bar icon to toggle Night Shift. Right click to open the menu."; ObjectID = "MXt-WM-cMR"; */
-"MXt-WM-cMR.title" = "Wenn aktiviert kann Night Shift bei Klick auf das Menüleisten-Symbol schnell umgeschaltet werden. Ein Rechtsklick auf das Symbol öffnet das Menü.";
+/* Class = "NSTextFieldCell"; title = "If enabled, click the Menu Bar icon to toggle Night Shift or shift-click to toggle Dark Mode. Right click to open the menu."; ObjectID = "MXt-WM-cMR"; */
+"MXt-WM-cMR.title" = "Wenn aktiviert kann Night Shift bei Klick auf das Menüleisten-Symbol sowie Dark Mode bei Shift-Klick umgeschaltet werden. Ein Rechtsklick auf das Symbol öffnet das Menü.";
 
 /* Class = "NSTextFieldCell"; title = "From:"; ObjectID = "PbT-Ky-Re6"; */
 "PbT-Ky-Re6.title" = "Von:";

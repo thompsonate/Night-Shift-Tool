@@ -15,6 +15,7 @@ class StatusMenuController: NSObject, NSMenuDelegate {
 
     @IBOutlet weak var statusMenu: NSMenu!
     @IBOutlet weak var powerMenuItem: NSMenuItem!
+    @IBOutlet weak var toggleDarkModeMenuItem: NSMenuItem!
     @IBOutlet weak var trueToneMenuItem: NSMenuItem!
     @IBOutlet weak var sliderMenuItem: NSMenuItem!
     @IBOutlet weak var descriptionMenuItem: NSMenuItem!
@@ -81,6 +82,7 @@ class StatusMenuController: NSObject, NSMenuDelegate {
         descriptionMenuItem.isEnabled = false
         sliderMenuItem.view = sliderView
 
+        toggleDarkModeMenuItem.title = NSLocalizedString("menu.toggle_dark_mode", comment: "Toggle Dark Mode")
         disableHourMenuItem.title = NSLocalizedString("menu.disable_hour", comment: "Disable for an hour")
         disableCustomMenuItem.title = NSLocalizedString("menu.disable_custom", comment: "Disable for custom time...")
         preferencesMenuItem.title = NSLocalizedString("menu.preferences", comment: "Preferences...")
@@ -386,6 +388,12 @@ class StatusMenuController: NSObject, NSMenuDelegate {
         } else {
             NightShiftManager.respond(to: .userEnabledNightShift)
         }
+    }
+    
+    
+    
+    @IBAction func toggleDarkMode(_ sender: Any) {
+        SLSSetAppearanceThemeLegacy(!SLSGetAppearanceThemeLegacy())
     }
     
     

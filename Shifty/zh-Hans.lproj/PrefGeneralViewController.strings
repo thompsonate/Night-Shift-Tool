@@ -16,8 +16,8 @@
 /* Class = "NSButtonCell"; title = "Website Shifting"; ObjectID = "HRq-mZ-FxG"; */
 "HRq-mZ-FxG.title" = "网站色温调节";
 
-/* Class = "NSTextFieldCell"; title = "If enabled, click the Menu Bar icon to toggle Night Shift. Right click to open the menu."; ObjectID = "MXt-WM-cMR"; */
-"MXt-WM-cMR.title" = "启用后，单击菜单栏图标以切换“夜览”模式。辅助点按以打开菜单。";
+/* Class = "NSTextFieldCell"; title = "If enabled, click the Menu Bar icon to toggle Night Shift or shift-click to toggle Dark Mode. Right click to open the menu."; ObjectID = "MXt-WM-cMR"; */
+"MXt-WM-cMR.title" = "启用后，单击菜单栏图标以切换“夜览”模式, 按住换档按钮单击以切换“暗模式”。辅助点按以打开菜单。";
 
 /* Class = "NSTextFieldCell"; title = "From:"; ObjectID = "PbT-Ky-Re6"; */
 "PbT-Ky-Re6.title" = "从:";

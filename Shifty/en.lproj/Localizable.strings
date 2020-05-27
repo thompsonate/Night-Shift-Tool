@@ -15,6 +15,7 @@
 "menu.disabled_for" = "Disabled for %@";
 "menu.enable_for" = "Enable for %@";
 "menu.enabled_for" = "Enabled for %@";
+"menu.toggle_dark_mode" = "Toggle Dark Mode";
 
 "menu.disable_running_app" = "Disable when %@ is running";
 "menu.disabled_running_app" = "Disabled when %@ is running";

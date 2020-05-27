@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="16096" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14460.31"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="16096"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -36,6 +36,7 @@
                 <outlet property="sliderView" destination="xRd-3s-8Ep" id="5v2-aR-QE3"/>
                 <outlet property="statusMenu" destination="YaK-8p-dol" id="uua-tx-AWw"/>
                 <outlet property="sunIcon" destination="Dky-H2-15i" id="AXj-lL-QbW"/>
+                <outlet property="toggleDarkModeMenuItem" destination="jGP-GB-0Cw" id="Dsk-Ir-TZH"/>
                 <outlet property="trueToneMenuItem" destination="fW8-W0-ja9" id="idL-jg-jCv"/>
             </connections>
         </customObject>
@@ -45,6 +46,12 @@
                     <modifierMask key="keyEquivalentModifierMask"/>
                     <connections>
                         <action selector="power:" target="YHE-ZD-Fjn" id="JXj-lp-mVz"/>
+                    </connections>
+                </menuItem>
+                <menuItem title="Toggle Dark Mode" id="jGP-GB-0Cw">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="toggleDarkMode:" target="YHE-ZD-Fjn" id="idq-eu-ERd"/>
                     </connections>
                 </menuItem>
                 <menuItem title="Description" id="zi6-lD-Hd5">
